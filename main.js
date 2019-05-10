@@ -2,10 +2,10 @@
 const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 const menuAvatar = document.querySelector(".menu-avatar");
-const navMenu = document.querySelector(".nav-menu");
+const navMenu = document.querySelector(".menu-nav");
 const navItems = document.querySelectorAll(".nav-item");
 
-//Menu should be set to show by default
+//Menu should be set to hidden by default
 let showMenu = false;
 menuBtn.addEventListener("click", toggleMenu);
 
