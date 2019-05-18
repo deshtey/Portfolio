@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeout;
   }
   //Rotate transition for the menu btn
@@ -79,7 +79,7 @@
     .avatar {
       width: 250px;
       height: 250px;
-      background: url("../img/me-1.jpg");
+      background: url("../img/me.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -102,7 +102,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeout;
 
